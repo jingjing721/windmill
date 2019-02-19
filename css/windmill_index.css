@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body{width: 100%;font-size:13px;position: relative;color: #333;}
+.left{float: left}
+.right{float: right}
+img{max-width: 100%;}
+.empty{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFBE37;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+}
+.empty img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.gift_exchange{
+    background: #FFFFFF;
+    /*box-shadow: 0 1px 4px 0 rgba(97,97,97,0.20);*/
+    border-radius: 8px 8px 0 0;
+    padding: 0 14px;
+}
+.title{
+    font-size: 14px;
+    color: #262626;
+    padding: 20px 0;
+}
+.icon_lpdh{
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../images/wdfc_icon_lpdh.png) no-repeat;
+    background-size: 100%;
+}
+.gift_list{
+    padding-bottom: 15px;
+}
+.gift_list_item{
+    position: relative;
+    margin-bottom: 15px;
+}
+.left_icon{
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 68px;
+    left: -5px;
+    background: url(../images/card_bg_left.png) no-repeat;
+    background-size: 100%;
+}
+.right_icon{
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 68px;
+    right: -5px;
+    background: url(../images/card_bg_right.png) no-repeat;
+    background-size: 100%;
+}
+.gift_list_line{
+    height: 18px;
+    /*background-image: linear-gradient(-269deg, #3ECBFF 0%, #3077FF 100%); 蓝色的*/
+    background-image: linear-gradient(-90deg, #FF7C7B 0%, #FFA171 100%);
+    border-radius: 4px;
+}
+.gift_list_con{
+    height: 98px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px 0 rgba(97,97,97,0.20);
+    border-radius: 4px;
+    margin-top: -14px;
+}
+.product{
+    height: 38px;
+    padding: 15px;
+}
+.product h3{
+    font-size: 14px;
+    color: #030303;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    height: 20px;
+}
+.product p{
+    font-size: 12px;
+    color: #9E9E9E;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 18px;
+    height: 18px;
+}
+.exchange_btn{
+    /*width: 60px;*/
+    width: 73px;
+    height: 24px;
+    line-height: 24px;
+    background-image: linear-gradient(57deg, #FFBE67 16%, #FF796C 59%, #FF6583 100%);
+    box-shadow: 0 2px 3px 0 rgba(255,113,118,0.30);
+    float: right;
+    border-radius: 100px;
+    margin-top: 7px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 10px;
+}
+.grey_btn{
+    background: #A5A4A4;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+    cursor: default;
+}
+.dashed_line{
+    /*border-bottom: 1px dashed #d4effd; 蓝色的*/
+    border-bottom: 1px dashed #fff4db;
+    margin: 0 5px;
+}
+.surplus{
+    font-size: 12px;
+    color: #b1b1b1;
+    padding: 6px 15px;
+    line-height: 18px;
+}
+.surplus em{
+    color: #ff7b46;
+    margin: 0 3px;
+}
